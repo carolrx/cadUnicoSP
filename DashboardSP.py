@@ -857,7 +857,7 @@ def main():
         nomesCidadesSP = list(cidadesSP.keys())
 
         # Criação da lista de seleção múltipla
-        selecionadas = st.multiselect(f"Escolha uma ou mais cidades", nomesCidadesSP,default = 'São Paulo', placeholder="Escolha uma ou mais cidades")
+        selecionadas = st.multiselect(f"Escolha uma ou mais cidades", nomesCidadesSP,default = 'São Paulo')
         st.text('Cuidado! Quanto mais cidades, menor a velocidade da página!')
         
         # Criando uma lista de dicionários com os nomes das cidades e seus respectivos códigos    
