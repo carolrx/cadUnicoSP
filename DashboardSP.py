@@ -831,9 +831,9 @@ def TabelaPCDaS(dfPolisPCDaSSP, cidadesSelecionadas):
 def main():
     #https://drive.google.com/file/d/1S_nMB7RX_HvEDC6E64DX9c6DMV-Lm53l/view?usp=drive_link
     url = 'https://drive.google.com/uc?export=download&id=1S_nMB7RX_HvEDC6E64DX9c6DMV-Lm53l'
-    df = pd.read_csv(url)
+    dfCadUnicoSP = pd.read_csv(url)
 
-    dfCadUnicoSP = pd.read_csv('CadUnicoSP.csv')
+    #dfCadUnicoSP = pd.read_csv('CadUnicoSP.csv')
     dfCidadesSPIBGE = pd.read_csv('CidadesSPIBGE.csv')
     dfPolisPCDaSSP = pd.read_csv('PolisPCDaSSP.csv')
 
